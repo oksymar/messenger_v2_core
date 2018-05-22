@@ -1,0 +1,51 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/oksymar/RiderProjects/messenger_v2_core/messenger_v2_core/messenger_v2_core.csproj",
+    "projectName": "messenger_v2_core",
+    "projectPath": "/home/oksymar/RiderProjects/messenger_v2_core/messenger_v2_core/messenger_v2_core.csproj",
+    "outputPath": "/home/oksymar/RiderProjects/messenger_v2_core/messenger_v2_core/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "M2MqttDotnetCore": {
+          "target": "Package",
+          "version": "[1.0.7, )"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.8, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
