@@ -11,5 +11,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="Models\ErrorViewModel.cs" />
+    <Compile Remove="WebSocket\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Shared\Error.cshtml" />
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\Home\Contact.cshtml" />
+    <Content Remove="WebSocket\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="WebSocket\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="WebSocket\**" />
   </ItemGroup>
 </Project>
