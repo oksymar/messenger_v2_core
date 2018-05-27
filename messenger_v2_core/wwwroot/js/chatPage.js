@@ -1,13 +1,36 @@
+var timestamp;
+
+seTimer();
+
 function sendMessage() {
     var messageWindow = document.getElementsByName("messageWindow")[0];
-    var message = messageWindow.value;
+    var messageMQTT = {
+        message: messageWindow.value,
+        timestamp: Date.now()
+    };
+
     messageWindow.value = "";
 
     $.ajax({
-        url: '/Chat/SendMessage',
+        url: '/Chat/SendMessageMQTT',
         type: 'POST',
-        data: {message: message}
+        data: {message: JSON.stringify(messageMQTT)}
     });
-    
-    //$("#ChatBox").append("<span>message</span>");
+}
+
+function seTimer() {
+    setInterval(function () {
+        $.ajax({
+            url: '/Chat/ReceiveMessage',
+            type: 'GET',
+            success: handlereceivedMessage
+        });
+    }, 500);
+
+}
+
+function handlereceivedMessage(data) {
+    if (data !== "Error") {
+        $("#ChatBox").append("<span>"+data.message+"</span>");
+    }
 }
