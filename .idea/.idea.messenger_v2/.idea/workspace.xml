@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="108f6eba-b14e-4e02-8580-3bebf2c106c3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.messenger_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.messenger_v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger_v2.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js" afterDir="false" />
@@ -22,14 +19,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3897867">
+    <splitter split-orientation="horizontal" split-proportion="0.5064767">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="chatPage.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="29" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="29" />
+                <state relative-caret-position="285">
+                  <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="402">
+                  <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+                  <folding>
+                    <marker date="1527595190527" expanded="true" signature="16:3048" ph="&lt;html.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="23:845" ph="&lt;head.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="197:385" ph="&lt;environment.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="390:837" ph="&lt;environment.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="846:3040" ph="&lt;body.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="853:1573" ph="&lt;nav.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="910:1566" ph="&lt;div.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="942:1435" ph="&lt;div.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="982:1306" ph="&lt;button.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="1444:1555" ph="&lt;div.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="1495:1540" ph="&lt;ul.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="1574:1719" ph="&lt;div.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="1643:1712" ph="&lt;footer.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="1721:2139" ph="&lt;environment.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="1882:2012" ph="&lt;script.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="2140:2988" ph="&lt;environment.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="2180:2508" ph="&lt;script.../&gt;" />
+                    <marker date="1527595190527" expanded="true" signature="2513:2902" ph="&lt;script.../&gt;" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -37,29 +63,20 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="ChatController.cs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="491">
-                  <caret line="86" column="92" selection-start-line="86" selection-start-column="92" selection-end-line="86" selection-end-column="92" />
+                <state relative-caret-position="153">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                   <folding>
-                    <marker date="1527452924674" expanded="false" signature="6:192" ph="..." />
-                    <marker date="1527452924674" expanded="true" signature="228:2978" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="275:2976" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="415:955" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="559:671" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="706:806" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="841:945" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="1079:1552" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="1163:1250" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="1624:1996" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="1666:1856" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="2078:2247" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="2305:2970" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="2360:2931" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="2541:2720" ph="{...}" />
-                    <marker date="1527452924674" expanded="true" signature="2741:2917" ph="{...}" />
+                    <marker date="1527599781347" expanded="false" signature="6:192" ph="..." />
+                    <marker date="1527599781347" expanded="true" signature="228:3120" ph="{...}" />
+                    <marker date="1527599781347" expanded="true" signature="275:3118" ph="{...}" />
+                    <marker date="1527599781347" expanded="true" signature="348:1003" ph="/* private MqttClient client; ... */" />
+                    <marker date="1527599781347" expanded="true" signature="1127:1618" ph="{...}" />
+                    <marker date="1527599781347" expanded="true" signature="1180:1580" ph="/* if (client == null) ... */" />
+                    <marker date="1527599781347" expanded="true" signature="1620:3112" ph="/* [HttpPost] ... */" />
                   </folding>
                 </state>
               </provider>
@@ -97,8 +114,8 @@
         <option value="$PROJECT_DIR$/messenger_v2_core/WebSocket/LogHub.cs" />
         <option value="$PROJECT_DIR$/messenger_v2_core/Startup.cs" />
         <option value="$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js" />
         <option value="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js" />
       </list>
     </option>
   </component>
@@ -119,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -147,6 +165,13 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
@@ -162,7 +187,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,11 +246,12 @@
       <workItem from="1527037289090" duration="4035000" />
       <workItem from="1527437143685" duration="825000" />
       <workItem from="1527439112121" duration="15400000" />
+      <workItem from="1527593835392" duration="5243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30320000" />
+    <option name="totallyTimeSpent" value="35563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,6 +264,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="950" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -246,11 +272,11 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925338" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925338" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.47001225" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1438849" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1455451" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32925338" />
       <window_info anchor="right" id="Database" order="3" />
@@ -307,10 +333,10 @@
           <line>88</line>
           <properties documentPath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" initialLine="88">
             <startOffsets>
-              <startOffset value="2580" />
+              <startOffset value="2700" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="2638" />
+              <endOffset value="2758" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
@@ -320,19 +346,42 @@
           <line>93</line>
           <properties documentPath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" initialLine="93">
             <startOffsets>
-              <startOffset value="2780" />
+              <startOffset value="2910" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="2835" />
+              <endOffset value="2965" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="86" column="92" selection-start-line="86" selection-start-column="92" selection-end-line="86" selection-end-column="92" />
+          <folding>
+            <marker date="1527599781347" expanded="false" signature="6:192" ph="..." />
+            <marker date="1527599781347" expanded="true" signature="228:3120" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="275:3118" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="348:1003" ph="/* private MqttClient client; ... */" />
+            <marker date="1527599781347" expanded="true" signature="1127:1618" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="1180:1580" ph="/* if (client == null) ... */" />
+            <marker date="1527599781347" expanded="true" signature="1620:3112" ph="/* [HttpPost] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -340,7 +389,6 @@
           <folding>
             <marker date="1527029052943" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
             <marker date="1527029052943" expanded="true" signature="56:225" ph="&lt;div.../&gt;" />
-            <marker date="1527029052943" expanded="true" signature="227:341" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -357,22 +405,13 @@
         <state relative-caret-position="435">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <marker date="1527452924674" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527452924674" expanded="true" signature="228:2978" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="275:2976" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="415:955" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="559:671" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="706:806" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="841:945" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1079:1552" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1163:1250" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1624:1996" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1666:1856" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2078:2247" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2305:2970" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2360:2931" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2541:2720" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2741:2917" ph="{...}" />
+            <marker date="1527599781347" expanded="false" signature="6:192" ph="..." />
+            <marker date="1527599781347" expanded="true" signature="228:3120" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="275:3118" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="348:1003" ph="/* private MqttClient client; ... */" />
+            <marker date="1527599781347" expanded="true" signature="1127:1618" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="1180:1580" ph="/* if (client == null) ... */" />
+            <marker date="1527599781347" expanded="true" signature="1620:3112" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -384,7 +423,6 @@
           <folding>
             <marker date="1527029052943" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
             <marker date="1527029052943" expanded="true" signature="56:225" ph="&lt;div.../&gt;" />
-            <marker date="1527029052943" expanded="true" signature="227:341" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -401,22 +439,13 @@
         <state relative-caret-position="675">
           <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding>
-            <marker date="1527452924674" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527452924674" expanded="true" signature="228:2978" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="275:2976" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="415:955" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="559:671" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="706:806" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="841:945" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1079:1552" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1163:1250" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1624:1996" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1666:1856" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2078:2247" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2305:2970" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2360:2931" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2541:2720" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2741:2917" ph="{...}" />
+            <marker date="1527599781347" expanded="false" signature="6:192" ph="..." />
+            <marker date="1527599781347" expanded="true" signature="228:3120" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="275:3118" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="348:1003" ph="/* private MqttClient client; ... */" />
+            <marker date="1527599781347" expanded="true" signature="1127:1618" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="1180:1580" ph="/* if (client == null) ... */" />
+            <marker date="1527599781347" expanded="true" signature="1620:3112" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -428,7 +457,6 @@
           <folding>
             <marker date="1527029052943" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
             <marker date="1527029052943" expanded="true" signature="56:225" ph="&lt;div.../&gt;" />
-            <marker date="1527029052943" expanded="true" signature="227:341" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -445,22 +473,13 @@
         <state relative-caret-position="690">
           <caret line="46" column="49" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="49" />
           <folding>
-            <marker date="1527452924674" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527452924674" expanded="true" signature="228:2978" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="275:2976" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="415:955" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="559:671" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="706:806" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="841:945" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1079:1552" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1163:1250" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1624:1996" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1666:1856" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2078:2247" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2305:2970" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2360:2931" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2541:2720" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2741:2917" ph="{...}" />
+            <marker date="1527599781347" expanded="false" signature="6:192" ph="..." />
+            <marker date="1527599781347" expanded="true" signature="228:3120" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="275:3118" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="348:1003" ph="/* private MqttClient client; ... */" />
+            <marker date="1527599781347" expanded="true" signature="1127:1618" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="1180:1580" ph="/* if (client == null) ... */" />
+            <marker date="1527599781347" expanded="true" signature="1620:3112" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -488,13 +507,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/messenger_v2_core/WebSocket/LogHub.cs" />
-    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/messenger_v2_core/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -516,7 +528,6 @@
           <folding>
             <marker date="1527029052943" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
             <marker date="1527029052943" expanded="true" signature="56:225" ph="&lt;div.../&gt;" />
-            <marker date="1527029052943" expanded="true" signature="227:341" ph="&lt;div.../&gt;" />
           </folding>
         </state>
       </provider>
@@ -525,76 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="160" column="18" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="18" />
-          <folding>
-            <marker date="1527441205853" expanded="true" signature="0:338" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1527441205853" expanded="false" signature="346:428" ph="..." />
-            <marker date="1527441205853" expanded="true" signature="458:11507" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="730:11505" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="978:990" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="1049:1061" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="1111:1630" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="1708:1873" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="1903:1968" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="1919:1962" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2003:2539" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2579:2639" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2595:2633" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2675:2868" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2691:2862" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2901:3353" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2934:3280" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="2979:3067" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="3080:3248" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="3409:4254" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="4299:4728" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="4349:4584" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="4776:4848" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="4885:5211" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="5245:5399" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="5450:5601" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="5647:6043" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="5737:6017" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="5770:5857" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="6082:6159" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="6198:6726" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="6354:6456" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="6467:6697" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="6770:7403" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="6850:7262" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="6895:7003" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7016:7254" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7441:7489" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7534:9363" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7635:7711" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7754:7825" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7774:7817" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7864:7941" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7884:7933" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7974:8084" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="7994:8076" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="8120:8189" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="8227:8349" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="8398:8480" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="8544:8631" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="8681:8757" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="8797:8875" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="8926:9010" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="9047:9122" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="9164:9242" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="9283:9357" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="9424:11075" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="9587:9823" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="9852:9907" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="9945:10403" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="10115:10217" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="10440:10778" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="10460:10770" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="10813:11069" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="11110:11501" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="11186:11317" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="11407:11495" ph="{...}" />
-            <marker date="1527441205853" expanded="true" signature="11427:11487" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,35 +546,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/site.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="402">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <marker date="1527595190527" expanded="true" signature="16:3048" ph="&lt;html.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="23:845" ph="&lt;head.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="197:385" ph="&lt;environment.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="390:837" ph="&lt;environment.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="846:3040" ph="&lt;body.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="853:1573" ph="&lt;nav.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="910:1566" ph="&lt;div.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="942:1435" ph="&lt;div.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="982:1306" ph="&lt;button.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="1444:1555" ph="&lt;div.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="1495:1540" ph="&lt;ul.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="1574:1719" ph="&lt;div.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="1643:1712" ph="&lt;footer.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="1721:2139" ph="&lt;environment.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="1882:2012" ph="&lt;script.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="2140:2988" ph="&lt;environment.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="2180:2508" ph="&lt;script.../&gt;" />
+            <marker date="1527595190527" expanded="true" signature="2513:2902" ph="&lt;script.../&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="86" column="92" selection-start-line="86" selection-start-column="92" selection-end-line="86" selection-end-column="92" />
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <marker date="1527452924674" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527452924674" expanded="true" signature="228:2978" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="275:2976" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="415:955" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="559:671" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="706:806" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="841:945" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1079:1552" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1163:1250" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1624:1996" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="1666:1856" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2078:2247" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2305:2970" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2360:2931" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2541:2720" ph="{...}" />
-            <marker date="1527452924674" expanded="true" signature="2741:2917" ph="{...}" />
+            <marker date="1527599781347" expanded="false" signature="6:192" ph="..." />
+            <marker date="1527599781347" expanded="true" signature="228:3120" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="275:3118" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="348:1003" ph="/* private MqttClient client; ... */" />
+            <marker date="1527599781347" expanded="true" signature="1127:1618" ph="{...}" />
+            <marker date="1527599781347" expanded="true" signature="1180:1580" ph="/* if (client == null) ... */" />
+            <marker date="1527599781347" expanded="true" signature="1620:3112" ph="/* [HttpPost] ... */" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
         </state>
       </provider>
     </entry>
