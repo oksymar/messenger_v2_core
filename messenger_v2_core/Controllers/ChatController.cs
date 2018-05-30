@@ -10,7 +10,7 @@ namespace messenger_v2.Controllers
 {
     public class ChatController : Controller
     {
-        private const String MQTT_BROKER_ADDR = "192.168.0.199";
+//        private const String MQTT_BROKER_ADDR = "192.168.0.199";
 
 //        private MqttClient client;
 
@@ -97,6 +97,6 @@ namespace messenger_v2.Controllers
 //            }
 //
 //            return "Error";
-//        }
+//        
     }
 }

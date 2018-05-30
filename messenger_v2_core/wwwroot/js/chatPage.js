@@ -41,10 +41,19 @@ function sendMessage() {
 //     }
 // }
 
+function guid() {
+    function s4() {
+        return Math.floor((1 + Math.random()) * 0x10000)
+            .toString(16)
+            .substring(1);
+    }
+    return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
+}
+
 //PAHO
 function connectMQTT() {
-    //client = new Paho.MQTT.Client(MQTT_BROKER_ADDR, Number(1883),"", "clientId");
-    client = new Paho.MQTT.Client("test.mosquitto.org", Number(443), "clientId");
+    var clientId = guid();
+    client = new Paho.MQTT.Client(MQTT_BROKER_ADDR, 3000, clientId);
     client.onConnectionLost = onConnectionLost;
     client.onMessageArrived = onMessageArrived;
     client.connect({
@@ -68,5 +77,6 @@ function onConnectionLost(responseObject) {
 
 // called when a message arrives
 function onMessageArrived(message) {
-    $("#ChatBox").append("<span>" + data.message + "</span>");
+    var msg = JSON.parse(message.payloadString);
+    $("#ChatBox").append("<span>" + msg.message + "</span>");
 }
