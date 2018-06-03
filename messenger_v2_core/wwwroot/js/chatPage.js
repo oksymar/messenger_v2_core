@@ -6,7 +6,9 @@ connectMQTT();
 
 function sendMessage() {
     var messageWindow = document.getElementsByName("messageWindow")[0];
+    var username = "User";
     var messageMQTT = {
+        username: username,
         message: messageWindow.value,
         timestamp: Date.now()
     };

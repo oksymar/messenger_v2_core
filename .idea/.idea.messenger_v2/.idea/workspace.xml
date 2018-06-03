@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108f6eba-b14e-4e02-8580-3bebf2c106c3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.messenger_v2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/StoreDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messenger_v2_core/Models/GlobalMsgModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.messenger_v2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.messenger_v2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.messenger_v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.messenger_v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/bin/Debug/netcoreapp2.0/messenger_v2_core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/messenger_v2_core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/messenger_v2_core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/Debug/netcoreapp2.0/messenger_v2_core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/messenger_v2_core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/messenger_v2_core.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/messenger_v2_core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/messenger_v2_core.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger_v2_core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,86 +32,112 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5064767">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="chatPage.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ChatPage.cshtml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-                  <folding>
-                    <marker date="1527638423720" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
-                    <marker date="1527638423720" expanded="true" signature="56:144" ph="&lt;div.../&gt;" />
-                    <marker date="1527638423720" expanded="true" signature="146:260" ph="&lt;div.../&gt;" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-                  <folding>
-                    <marker date="1527595190527" expanded="true" signature="23:845" ph="&lt;head.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="197:385" ph="&lt;environment.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="390:837" ph="&lt;environment.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="846:3040" ph="&lt;body.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="853:1573" ph="&lt;nav.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="910:1566" ph="&lt;div.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="942:1435" ph="&lt;div.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="982:1306" ph="&lt;button.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="1444:1555" ph="&lt;div.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="1495:1540" ph="&lt;ul.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="1574:1719" ph="&lt;div.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="1643:1712" ph="&lt;footer.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="1721:2139" ph="&lt;environment.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="1882:2012" ph="&lt;script.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="2140:2988" ph="&lt;environment.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="2180:2508" ph="&lt;script.../&gt;" />
-                    <marker date="1527595190527" expanded="true" signature="2513:2902" ph="&lt;script.../&gt;" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ChatController.cs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="62" />
-                  <folding>
-                    <marker date="1527636580108" expanded="false" signature="6:192" ph="..." />
-                    <marker date="1527636580108" expanded="true" signature="228:3121" ph="{...}" />
-                    <marker date="1527636580108" expanded="true" signature="275:3119" ph="{...}" />
-                    <marker date="1527636580108" expanded="true" signature="282:1005" ph="/* private const String MQTT_BROKER_ADDR = &quot;192.168.0.199&quot;; ... */" />
-                    <marker date="1527636580108" expanded="true" signature="1129:1620" ph="{...}" />
-                    <marker date="1527636580108" expanded="true" signature="1182:1582" ph="/* if (client == null) ... */" />
-                    <marker date="1527636580108" expanded="true" signature="1622:3113" ph="/* [HttpPost] ... */" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ChatController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+                <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+                <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+                <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+                <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+                <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+                <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+                <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+                <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messenger_v2_core/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <marker date="1527014498455" expanded="false" signature="6:255" ph="..." />
+                <marker date="1527014498455" expanded="true" signature="311:603" ph="{...}" />
+                <marker date="1527014498455" expanded="true" signature="364:422" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlobalMsgModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messenger_v2_core/Models/GlobalMsgModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <marker date="1528048871601" expanded="true" signature="6:58" ph="..." />
+                <marker date="1528048871601" expanded="true" signature="128:287" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreDbContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/StoreDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/messenger_v2_core/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/messenger_v2_core/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <marker date="1528058398917" expanded="true" signature="6:239" ph="..." />
+                <marker date="1528058398917" expanded="true" signature="295:1359" ph="{...}" />
+                <marker date="1528058398917" expanded="true" signature="354:417" ph="{...}" />
+                <marker date="1528058398917" expanded="true" signature="640:691" ph="{...}" />
+                <marker date="1528058398917" expanded="true" signature="879:1353" ph="{...}" />
+                <marker date="1528058398917" expanded="true" signature="926:1003" ph="{...}" />
+                <marker date="1528058398917" expanded="true" signature="1020:1104" ph="{...}" />
+                <marker date="1528058398917" expanded="true" signature="1173:1341" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -108,27 +148,38 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31728713-D8F1-44EE-9CA5-ACA19439B089/6a/22739004/Queue.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41442E7B-FC54-4237-8A6D-2BC148BC1CE9/65/cc8ed6b0/WebSocketMqttNetworkChannel.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E34CA550-E8FA-4A6E-BA57-07824B2FA4CC/b7/6e6055b0/MqttFactory.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F11B32EC-3032-4E79-81BC-7A43CADFC8B9/b9/af6a342d/MqttClient.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/messenger_v2_core/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/messenger_v2_core/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98977278-493E-494E-9758-AECE610C68D5/3d/6ca243e1/DateTime.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/messenger_v2_core/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E34CA550-E8FA-4A6E-BA57-07824B2FA4CC/16/b7484de9/MqttClient.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/messenger_v2_core/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/messenger_v2_core/Models/GlobalMsgModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/StoreDbContext.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/messenger_v2_core/Views/_ViewImports.cshtml" />
         <option value="$PROJECT_DIR$/messenger_v2_core/WebSocket/LogHub.cs" />
-        <option value="$PROJECT_DIR$/messenger_v2_core/Startup.cs" />
         <option value="$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" />
         <option value="$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/Models/GlobalMsgModel.cs" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/GlobalMsgRepository.cs" />
         <option value="$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/appsettings.json" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/StoreDbContext.cs" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/Startup.cs" />
+        <option value="$PROJECT_DIR$/messenger_v2_core/Controllers/Controller1.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +188,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
@@ -165,40 +219,22 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name=".NETCoreApp 2" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Chat" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="messenger_v2 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="messenger_v2_core" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="js" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name=".NETCoreApp 2" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Packages" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -210,14 +246,32 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="444" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="444" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="444" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="443" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="444" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="444" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="444" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="443" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
     <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="SearchEverywhereHistoryKey" value="termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,11 +322,14 @@
       <workItem from="1527439112121" duration="15400000" />
       <workItem from="1527593835392" duration="7671000" />
       <workItem from="1527636552366" duration="2669000" />
+      <workItem from="1528042362613" duration="15071000" />
+      <workItem from="1528059338045" duration="988000" />
+      <workItem from="1528060362601" duration="1307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40660000" />
+    <option name="totallyTimeSpent" value="58026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,27 +345,27 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="REST Client" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5002767" side_tool="true" weight="0.47001225" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="11" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32925338" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.47001225" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14720531" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32925338" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.29130965" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.54345167" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.4997233" weight="0.47001225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18096292" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.19756502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9192031" weight="0.31456548" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39902082" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.32925338" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -316,6 +373,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -347,10 +405,149 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs</url>
+          <line>51</line>
+          <properties documentPath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" initialLine="51">
+            <startOffsets>
+              <startOffset value="1708" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1730" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs</url>
+          <line>52</line>
+          <properties documentPath="$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs" initialLine="52">
+            <startOffsets>
+              <startOffset value="1751" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1768" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <marker date="1527014498455" expanded="false" signature="6:255" ph="..." />
+            <marker date="1527014498455" expanded="true" signature="311:603" ph="{...}" />
+            <marker date="1527014498455" expanded="true" signature="364:422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Models/GlobalMsgModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1528048871601" expanded="true" signature="6:58" ph="..." />
+            <marker date="1528048871601" expanded="true" signature="128:287" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1528058398917" expanded="true" signature="6:239" ph="..." />
+            <marker date="1528058398917" expanded="true" signature="295:1359" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="354:417" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="640:691" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="879:1353" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="926:1003" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="1020:1104" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="1173:1341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/StoreDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="62" />
+          <folding>
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -362,25 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <marker date="1527595190527" expanded="true" signature="23:845" ph="&lt;head.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="197:385" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="390:837" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="846:3040" ph="&lt;body.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="853:1573" ph="&lt;nav.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="910:1566" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="942:1435" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="982:1306" ph="&lt;button.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1444:1555" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1495:1540" ph="&lt;ul.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1574:1719" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1643:1712" ph="&lt;footer.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1721:2139" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1882:2012" ph="&lt;script.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="2140:2988" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="2180:2508" ph="&lt;script.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="2513:2902" ph="&lt;script.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,13 +567,15 @@
         <state relative-caret-position="1395">
           <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
           <folding>
-            <marker date="1527636580108" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527636580108" expanded="true" signature="228:3121" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="275:3119" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="282:1005" ph="/* private const String MQTT_BROKER_ADDR = &quot;192.168.0.199&quot;; ... */" />
-            <marker date="1527636580108" expanded="true" signature="1129:1620" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="1182:1582" ph="/* if (client == null) ... */" />
-            <marker date="1527636580108" expanded="true" signature="1622:3113" ph="/* [HttpPost] ... */" />
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -412,13 +592,15 @@
         <state relative-caret-position="1200">
           <caret line="86" column="92" selection-start-line="86" selection-start-column="92" selection-end-line="86" selection-end-column="92" />
           <folding>
-            <marker date="1527636580108" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527636580108" expanded="true" signature="228:3121" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="275:3119" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="282:1005" ph="/* private const String MQTT_BROKER_ADDR = &quot;192.168.0.199&quot;; ... */" />
-            <marker date="1527636580108" expanded="true" signature="1129:1620" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="1182:1582" ph="/* if (client == null) ... */" />
-            <marker date="1527636580108" expanded="true" signature="1622:3113" ph="/* [HttpPost] ... */" />
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -427,11 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <marker date="1527638423720" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="56:144" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="146:260" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,13 +624,15 @@
         <state relative-caret-position="435">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <marker date="1527636580108" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527636580108" expanded="true" signature="228:3121" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="275:3119" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="282:1005" ph="/* private const String MQTT_BROKER_ADDR = &quot;192.168.0.199&quot;; ... */" />
-            <marker date="1527636580108" expanded="true" signature="1129:1620" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="1182:1582" ph="/* if (client == null) ... */" />
-            <marker date="1527636580108" expanded="true" signature="1622:3113" ph="/* [HttpPost] ... */" />
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -462,11 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <marker date="1527638423720" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="56:144" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="146:260" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,13 +656,15 @@
         <state relative-caret-position="675">
           <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding>
-            <marker date="1527636580108" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527636580108" expanded="true" signature="228:3121" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="275:3119" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="282:1005" ph="/* private const String MQTT_BROKER_ADDR = &quot;192.168.0.199&quot;; ... */" />
-            <marker date="1527636580108" expanded="true" signature="1129:1620" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="1182:1582" ph="/* if (client == null) ... */" />
-            <marker date="1527636580108" expanded="true" signature="1622:3113" ph="/* [HttpPost] ... */" />
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -497,11 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <marker date="1527638423720" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="56:144" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="146:260" ph="&lt;div.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,13 +688,15 @@
         <state relative-caret-position="690">
           <caret line="46" column="49" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="49" />
           <folding>
-            <marker date="1527636580108" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527636580108" expanded="true" signature="228:3121" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="275:3119" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="282:1005" ph="/* private const String MQTT_BROKER_ADDR = &quot;192.168.0.199&quot;; ... */" />
-            <marker date="1527636580108" expanded="true" signature="1129:1620" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="1182:1582" ph="/* if (client == null) ... */" />
-            <marker date="1527636580108" expanded="true" signature="1622:3113" ph="/* [HttpPost] ... */" />
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
           </folding>
         </state>
       </provider>
@@ -551,20 +724,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/messenger_v2_core/WebSocket/LogHub.cs" />
-    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31728713-D8F1-44EE-9CA5-ACA19439B089/6a/22739004/Queue.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -579,64 +738,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0717010a-71cd-40f7-8f60-558a24113d1a/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F11B32EC-3032-4E79-81BC-7A43CADFC8B9/b9/af6a342d/MqttClient.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <marker date="1527595190527" expanded="true" signature="23:845" ph="&lt;head.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="197:385" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="390:837" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="846:3040" ph="&lt;body.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="853:1573" ph="&lt;nav.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="910:1566" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="942:1435" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="982:1306" ph="&lt;button.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1444:1555" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1495:1540" ph="&lt;ul.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1574:1719" ph="&lt;div.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1643:1712" ph="&lt;footer.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1721:2139" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="1882:2012" ph="&lt;script.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="2140:2988" ph="&lt;environment.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="2180:2508" ph="&lt;script.../&gt;" />
-            <marker date="1527595190527" expanded="true" signature="2513:2902" ph="&lt;script.../&gt;" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="112" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41442E7B-FC54-4237-8A6D-2BC148BC1CE9/65/cc8ed6b0/WebSocketMqttNetworkChannel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="62" />
-          <folding>
-            <marker date="1527636580108" expanded="false" signature="6:192" ph="..." />
-            <marker date="1527636580108" expanded="true" signature="228:3121" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="275:3119" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="282:1005" ph="/* private const String MQTT_BROKER_ADDR = &quot;192.168.0.199&quot;; ... */" />
-            <marker date="1527636580108" expanded="true" signature="1129:1620" ph="{...}" />
-            <marker date="1527636580108" expanded="true" signature="1182:1582" ph="/* if (client == null) ... */" />
-            <marker date="1527636580108" expanded="true" signature="1622:3113" ph="/* [HttpPost] ... */" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E34CA550-E8FA-4A6E-BA57-07824B2FA4CC/b7/6e6055b0/MqttFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E34CA550-E8FA-4A6E-BA57-07824B2FA4CC/16/b7484de9/MqttClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="451" column="35" selection-start-line="451" selection-start-column="35" selection-end-line="451" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/bundleconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/505b5f62-15f1-4aea-8aff-74972a957bf3/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/GlobalMsgRepository.cs" />
     <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Chat/ChatPage.cshtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="81" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
-            <marker date="1527638423720" expanded="true" signature="0:54" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="56:144" ph="&lt;div.../&gt;" />
-            <marker date="1527638423720" expanded="true" signature="146:260" ph="&lt;div.../&gt;" />
+            <marker date="1527014498455" expanded="false" signature="6:255" ph="..." />
+            <marker date="1527014498455" expanded="true" signature="311:603" ph="{...}" />
+            <marker date="1527014498455" expanded="true" signature="364:422" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messenger_v2_core/wwwroot/js/chatPage.js">
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Models/GlobalMsgModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1528048871601" expanded="true" signature="6:58" ph="..." />
+            <marker date="1528048871601" expanded="true" signature="128:287" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/Controller1.cs" />
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Controllers/ChatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <marker date="1528056329157" expanded="true" signature="6:309" ph="..." />
+            <marker date="1528056329157" expanded="true" signature="392:3406" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="713:2359" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="991:1062" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1169:1299" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1364:1800" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1564:1786" ph="{...}" />
+            <marker date="1528056329157" expanded="true" signature="1803:2321" ph="/* if (client == null) ... */" />
+            <marker date="1528056329157" expanded="true" signature="2361:3400" ph="/* [HttpPost] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1528058398917" expanded="true" signature="6:239" ph="..." />
+            <marker date="1528058398917" expanded="true" signature="295:1359" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="354:417" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="640:691" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="879:1353" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="926:1003" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="1020:1104" ph="{...}" />
+            <marker date="1528058398917" expanded="true" signature="1173:1341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/DataAccessLayer/StoreDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messenger_v2_core/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

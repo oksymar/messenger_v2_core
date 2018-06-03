@@ -1,53 +1,63 @@
 ﻿using System;
-using System.Collections;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Threading.Tasks;
+using messenger_v2_core.DataAccessLayer;
+using messenger_v2_core.Models;
 using Microsoft.AspNetCore.Mvc;
+using MQTTnet;
+using MQTTnet.Client;
+using MQTTnet.ManagedClient;
 using Newtonsoft.Json;
-using uPLibrary.Networking.M2Mqtt;
-using uPLibrary.Networking.M2Mqtt.Messages;
 
 namespace messenger_v2.Controllers
 {
     public class ChatController : Controller
     {
-//        private const String MQTT_BROKER_ADDR = "192.168.0.199";
+        private const String MQTT_BROKER_ADDR = "192.168.0.199:3000/mqtt";
+        private const int MQTT_BROKER_PORT = 3000;
 
 //        private MqttClient client;
-
-//        private class MsgObject
-//        {
-//            private String message;
-//            private long timestamp;
-//
-//            public MsgObject(string message, long timestamp)
-//            {
-//                this.message = message;
-//                this.timestamp = timestamp;
-//            }
-//
-//            public string Message
-//            {
-//                get => message;
-//                set => message = value;
-//            }
-//
-//            public long Timestamp
-//            {
-//                get => timestamp;
-//                set => timestamp = value;
-//            }
-//        }
-
-        private static Queue globalMsgStorage = new Queue();
-
+        
+        IMqttClient mqttClient  = new MqttFactory().CreateMqttClient();
+        
         // GET: Chat
         public IActionResult ChatPage()
         {
             ViewBag.Title = "Chat Page";
 
+            // Use WebSocket connection.
+            var options = new MqttClientOptionsBuilder()
+                .WithWebSocketServer(MQTT_BROKER_ADDR)
+                .Build();
+
+            Task task = new Task (async () =>{
+                await mqttClient.ConnectAsync(options);
+            });
+            task.Start();
+            task.Wait();
+
+
+            mqttClient.Connected += async (s, e) =>
+            {
+                await mqttClient.SubscribeAsync(new TopicFilterBuilder().WithTopic("/chat").Build());
+            };
+
+            mqttClient.ApplicationMessageReceived += (s, e) =>
+            {
+                var message = JsonConvert.DeserializeObject<GlobalMsgModel>(Encoding.UTF8.GetString(e.ApplicationMessage.Payload));
+                using (var db = new StoreDbContext())
+                {
+                    var msg = new GlobalMsgModel{Message = "asdfrt", Timestamp = 123, Username = "Us1"};
+                    db.GlobalMsg.Add(msg);
+                    db.SaveChanges();
+                }
+            };
+
 //            if (client == null)
 //            {
-//                client = new MqttClient(MQTT_BROKER_ADDR);
+//                client = new MqttClient(MQTT_BROKER_ADDR, MQTT_BROKER_PORT, false, (X509Certificate) null,
+//                    (X509Certificate) null, MqttSslProtocols.None);
 //            }
 //
 //            client.MqttMsgPublishReceived += ReceiveMessageMQTT;
@@ -74,29 +84,17 @@ namespace messenger_v2.Controllers
 
 //        public void ReceiveMessageMQTT(object sender, MqttMsgPublishEventArgs e)
 //        {
-//            var entity = JsonConvert.DeserializeObject<MsgObject>(Encoding.UTF8.GetString(e.Message));
-//            globalMsgStorage.Enqueue(entity);
-//        }
-
-//        [HttpGet]
-//        public string ReceiveMessage()
-//        {
-//            if (globalMsgStorage.Count != 0)
+//            var message = JsonConvert.DeserializeObject<GlobalMsgModel>(Encoding.UTF8.GetString(e.Message));
+//            using (var db = new StoreDbContext())
 //            {
-//                MsgObject element = (MsgObject) globalMsgStorage.Peek();
-//                if (element.Timestamp + 600 < DateTimeOffset.UtcNow.ToUnixTimeMilliseconds())
-//                {
-//                    MsgObject msgObj = (MsgObject) globalMsgStorage.Dequeue();
-//                    return JsonConvert.SerializeObject(msgObj);
-//                }
-//                else
-//                {
-//                    MsgObject msgObj = (MsgObject) globalMsgStorage.Peek();
-//                    return JsonConvert.SerializeObject(msgObj);
-//                }
-//            }
+//                db.GlobalMsg.Add(message);
+//                db.SaveChanges();
 //
-//            return "Error";
-//        
+////                // Display all Blogs from the database 
+////                var query = from b in db.Blogs
+////                    orderby b.Name
+////                    select b;
+//            }
+//        }
     }
 }

@@ -9,7 +9,12 @@
           <e p="ChatController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
-        <e p="Models" t="Include" />
+        <e p="DataAccessLayer" t="Include">
+          <e p="StoreDbContext.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="GlobalMsgModel.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
