@@ -7,18 +7,23 @@ namespace messenger_v2_core.DataAccessLayer
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(
-                    @"Server=(localdb)\mssqllocaldb;Database=Blogging;Trusted_Connection=True;");
+                if (optionsBuilder.IsConfigured == false)
+                {
+                    optionsBuilder.UseNpgsql(
+                        "User ID=test;Password=test;Host=localhost;Port=5432;Database=Postgres;Pooling=true;");
+                }
+
+                base.OnConfiguring(optionsBuilder);
             }
         }
 
-        public DbSet<GlobalMsgModel> GlobalMsg { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        public StoreDbContext(DbContextOptions<StoreDbContext> options)
+            : base(options)
         {
-            modelBuilder.Entity<GlobalMsgModel>().ToTable("GlobalMsg");
         }
+
+
+        public DbSet<GlobalMsgModel> GlobalMsg { get; set; }
     }
 }
